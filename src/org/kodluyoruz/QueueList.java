@@ -10,7 +10,8 @@ class QueueList<T>  implements Queue<T> {
     }
 
     @Override
-    public void add(T value) {
+     public void add(T value) {
+        System.out.println(value);
         if(length == 0){
             firstNode = new Node();
             nextNode = firstNode;
@@ -25,8 +26,9 @@ class QueueList<T>  implements Queue<T> {
     }
 
     @Override
-    public T poll() {
-            Node<T> node = firstNode;
+     public T poll() {
+        Node<T> node = firstNode;
+        try {
             if (length != 0) {
                 length--;
                 firstNode = firstNode.nextNode;
@@ -34,14 +36,19 @@ class QueueList<T>  implements Queue<T> {
                     nextNode = null;
                     length = 0;
                 }
-            }else {
-                return null;
             }
             return node.startNode;
+        }catch (NullPointerException exception){
+            System.out.println(exception.getMessage());
+        }
+        return null;
+
+
     }
 
     @Override
-    public T peek() {
+     public T peek() {
+        System.out.println("peek");
         return firstNode != null ?  firstNode.startNode : null;
     }
 }
