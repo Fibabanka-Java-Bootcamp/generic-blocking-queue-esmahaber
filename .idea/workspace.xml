@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0a5751-2aba-4c8a-975d-459acf6c5e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/kodluyoruz/QueueList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic-blocking-queue-esmahaber/org/kodluyoruz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generic-blocking-queue-esmahaber/org/kodluyoruz/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic-blocking-queue-esmahaber/org/kodluyoruz/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generic-blocking-queue-esmahaber/org/kodluyoruz/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic-blocking-queue-esmahaber/org/kodluyoruz/QueueList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generic-blocking-queue-esmahaber/org/kodluyoruz/QueueList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <workItem from="1609538347718" duration="2678000" />
       <workItem from="1609584987038" duration="424000" />
       <workItem from="1609757220060" duration="15554000" />
-      <workItem from="1609839448339" duration="1602000" />
+      <workItem from="1609839448339" duration="2062000" />
     </task>
     <servers />
   </component>
