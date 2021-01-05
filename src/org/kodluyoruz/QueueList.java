@@ -17,12 +17,12 @@ class QueueList<T>  implements Queue<T> {
             nextNode = firstNode;
             length++;
         }else{
-            nextNode.nextNode= new Node();
-            nextNode = nextNode.nextNode;
+            nextNode.setNextNode(new Node());
+            nextNode = nextNode.getNextNode();
             length++;
         }
-        nextNode.startNode = value;
-        nextNode.nextNode = null;
+        nextNode.setStartNode(value);
+        nextNode.setNextNode(null);
     }
 
     @Override
@@ -31,13 +31,13 @@ class QueueList<T>  implements Queue<T> {
         try {
             if (length != 0) {
                 length--;
-                firstNode = firstNode.nextNode;
+                firstNode = firstNode.getNextNode();
                 if (firstNode == null) {
                     nextNode = null;
                     length = 0;
                 }
             }
-            return node.startNode;
+            return node.getStartNode();
         }catch (NullPointerException exception){
             System.out.println(exception.getMessage());
         }
@@ -49,6 +49,6 @@ class QueueList<T>  implements Queue<T> {
     @Override
      public T peek() {
         System.out.println("peek");
-        return firstNode != null ?  firstNode.startNode : null;
+        return firstNode != null ?  firstNode.getStartNode() : null;
     }
 }

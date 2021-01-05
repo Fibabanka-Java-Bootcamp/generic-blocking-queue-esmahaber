@@ -123,9 +123,6 @@ public class Main {
             }
         });
 
-
-
-
         try {
             addThread1.start();
             addThread2.start();

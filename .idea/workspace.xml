@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8f0a5751-2aba-4c8a-975d-459acf6c5e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/QueueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/QueueList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +56,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -86,7 +76,8 @@
       <workItem from="1609538347718" duration="2678000" />
       <workItem from="1609584987038" duration="424000" />
       <workItem from="1609757220060" duration="15554000" />
-      <workItem from="1609839448339" duration="17363000" />
+      <workItem from="1609839448339" duration="17665000" />
+      <workItem from="1609878101101" duration="340000" />
     </task>
     <servers />
   </component>
